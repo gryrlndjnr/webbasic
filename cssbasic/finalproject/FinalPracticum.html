@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final Practicum CSS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header menu  -->
+    <header>
+      <div class="topnav" id="myTopnav">
+        <a class="active" href="FinalPracticum.html">Home</a>
+        <a href="Mango.html">Mango</a>
+        <a href="Coconut.html">Coconut</a>
+        <a href="Mangosteen.html">Mangosteen</a>
+        <a href="Durian.html">Durian</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <img src="images.png" alt="image" width="15px" height="15px" />
+        </a>
+      </div>
+    </header>
+    <!-- header menu  -->
+    <!-- content  -->
+    <section class="full-height">
+      <nav>
+        <dl>
+          <dt><a class="active" href="FinalPracticum.html">Home</a></dt>
+          <dt><a href="Mango.html">Mango</a></dt>
+          <dt><a href="Coconut.html">Coconut</a></dt>
+          <dt><a href="Mangosteen.html">Mangosteen</a></dt>
+          <dt><a href="Durian.html">Durian</a></dt>
+        </dl>
+      </nav>
+      <article>
+        <table  width="100%">
+          <thead>
+            <div>
+              <th>Mango</th>
+              <th>Coconut</th>
+              <th>Mangosteen</th>
+              <th>Durian</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr align="center">
+              <td>
+                <a href="Mango.html"
+                  ><img
+                    src="mango_logo.png"
+                    alt="Mango"
+                    width="125px"
+                    height="105px"
+                /></a>
+              </td>
+              <td>
+                <a href="Coconut.html"
+                  ><img
+                    src="coconut_logo.png"
+                    alt="Coconut"
+                    width="125px"
+                    height="105px"
+                /></a>
+              </td>
+              <td>
+                <a href="Mangosteen.html"
+                  ><img
+                    src="mangosteen.png"
+                    alt="Mangosteen"
+                    width="125px"
+                    height="105px"
+                /></a>
+              </td>
+              <td>
+                <a href="Durian.html"
+                  ><img
+                    src="durian_logo.png"
+                    alt="Durian"
+                    width="125px"
+                    height="105px"
+                /></a>
+              </td>
+            </tr>
+            <tr align="center">
+              <td><a href="Mango.html">Mango Page</a></td>
+              <td><a href="Coconut.html">Coconut Page</a></td>
+              <td><a href="Mangosteen.html">Mangosteen Page</a></td>
+              <td><a href="Durian.html">Durian Page</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+    </section>
+    <!-- content  -->
+
+    <!-- footer  -->
+    <footer>
+      <div style="float: left">
+        <a href="RateMyProject.html">Rate My Project</a>
+      </div>
+      <div style="float: right">
+        <a href="#">Gary Ecleo</a>
+      </div>
+    </footer>
+    <!-- footer  -->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>
